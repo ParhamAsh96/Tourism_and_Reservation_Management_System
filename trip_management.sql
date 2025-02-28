@@ -1,9 +1,8 @@
--- Ali Ashrafzadeh Esfahani
--- Noralhoda Alayoub
--- Group 21
+-- University of Gothenburg
+-- Software Engineering and Management
+-- DIT034 - Data Management
+-- Ali 'Parham' Ashrafzadeh
 
-
-/*
 
 -- SQL1.1
 CREATE DATABASE trips;
@@ -15,11 +14,6 @@ CREATE TABLE Users(
     email VARCHAR UNIQUE,
     full_name VARCHAR
     );
-
--- NOTE:
--- user is a reserved keyword in PSQL so we used users instead. 
--- We also could have user inside double qoutation to make it work but then 
--- it would become case-sencitive so I decided to avoid it for posible issues in the future.
 
 
 CREATE TYPE Location_type as (Latitude FLOAT, Longitude FLOAT);
@@ -238,5 +232,3 @@ INSERT INTO reserv_in_room VALUES (
 INSERT INTO reserv_in_room VALUES (
     'Tobbe Salehi', 6, 6, 7018
     );
-
-*/
