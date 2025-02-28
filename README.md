@@ -1,4 +1,4 @@
-**Tourism and Reservation Management System**
+**Tourism and Reservation Management System - TRMS**
 
 This project is part of our Data Management course in the Software Engineering and Management Bachelor's program at the University of Gothenburg. It includes the design and implementation of a relational database for a Tourism & Reservation Management System.
 
